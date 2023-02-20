@@ -1,0 +1,26 @@
+<div class="col" >
+    <div class="card" >
+        <img 
+            [src]="proyect.photo" 
+            style="width:auto;height: 350px; " 
+            class="card-img-top" alt="..."
+        >
+        <div class="card-body">
+            <ul class="list-group list-group-flush" style="color: rgb(0, 0, 0);">
+                <h5 class="card-title">{{proyect.nombreProyecto}}</h5>
+                <li class="list-group-item">{{proyect.descripcionProyecto}}</li>
+                <li class="list-group-item">{{proyect.periodoProyecto}}</li>
+            </ul>
+        </div>
+        <a 
+            [href]="proyect.linkProyecto" 
+            
+            target="{{ proyect.linkProyecto=='#proyectoss' ? '_self': '_blank'}}"
+            class="btn btn-primary" 
+            style="background-color: rgb(108,117,125); border-color: rgb(108,117,125);"
+            (click)="referencia(proyect)"
+        > 
+            Link Referido 
+        </a>
+    </div>
+</div>

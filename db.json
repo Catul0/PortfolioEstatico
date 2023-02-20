@@ -1,0 +1,155 @@
+{
+  "portada": {
+    "id": 1,
+    "photo": "./assets/imagenes/yo.PNG",
+    "background": "./assets/imagenes/fotoFondo.jpg",
+    "nombre": "Valentin Sigaudo"
+  },
+  "sobreMi": [
+    {
+      "id": 3,
+      "titulo": "Full Stack Web Developer",
+      "texto": "Hola! Soy Valentín Sigaudo, tengo 23 años, estudiante de ingeniería en sistemas, Programador Full Stack Web. No tengo experiencia laboral en el ámbito del desarrollo pero aprendo rápido y estoy dispuesto a conocer las tecnologías necesarias para trabajar."
+    }
+  ],
+  "misProyectos": [
+    {
+      "id": 1,
+      "photo": "./assets/imagenes/generala.PNG",
+      "nombreProyecto": "Generala",
+      "descripcionProyecto": "La generala es un juego de dados que consiste en tirar los dados y formar juegos con los numeros con la opcion de volver a tirar algunos dados para que se forme un juego este es un proyecto de la facultad y esta hecho completamente en C++",
+      "periodoProyecto": "2018",
+      "linkProyecto": "https://github.com/Catul0/Generala-C-"
+    },
+    {
+      "id": 2,
+      "photo": "./assets/imagenes/andlu.PNG",
+      "nombreProyecto": "ANDLUml",
+      "descripcionProyecto": "Es una app de cargado de animales para llevar registros de vacunaciones, nacimientos, etc. Se pueden cargar animales, ver lista, actualizarla, buscar por caravana, entre otras cosas. Esta hecho en Python con un sistema de base de datos MySQlite",
+      "periodoProyecto": "Septiembre 2021",
+      "linkProyecto": "https://www.mediafire.com/file/czuint3rzbrve9v/ANDLUml2.zip/file"
+    },
+    {
+      "id": 3,
+      "photo": "./assets/imagenes/port.PNG",
+      "nombreProyecto": "Portfolio Funcional Propio (esta misma pagina)",
+      "descripcionProyecto": "Este es el proyecto final del curso Argentina Programa 3. Esta hecha Angular, Bootstrap, SpringBoot, MySQL, Java. El deploy esta en CleverCloud, Render y Firebase. En el link referido hay un video que muestra el funcionamiento de la misma.",
+      "periodoProyecto": "2022 - 2023",
+      "linkProyecto": "https://youtu.be/FDocwSOm6cY"
+    }
+  ],
+  "misSkills": [
+    {
+      "id": 1,
+      "titulo": "Angular",
+      "texto": "Angular es un potente framewerk para frontend que usa TypeScripte, lo aprendí a usar en Argentina Programa, esta pagina esta hacha con Angular",
+      "nivel": "Muy Bueno"
+    },
+    {
+      "id": 2,
+      "titulo": "HTML",
+      "texto": "HTML aprendí de manera autodidacta y en el Argentina Programa",
+      "nivel": "Muy Bueno"
+    },
+    {
+      "id": 3,
+      "titulo": "JAVA",
+      "texto": "Adquirí conocimientos sobre java en Argentina Programa",
+      "nivel": "Medio"
+    },
+    {
+      "id": 4,
+      "titulo": "TypeScript",
+      "texto": "TypeScript comencé a usarlo junto con angular, ya que se necesita ese lenguaje para dar funcionalidad a la pagina",
+      "nivel": "Bueno"
+    },
+    {
+      "id": 5,
+      "titulo": "SPRINGBOOT",
+      "texto": "Aprendí spring en el curso de Argentina Programa, hice el backend de este mismo proyecto",
+      "nivel": "Bueno"
+    },
+    {
+      "id": 6,
+      "titulo": "PYTHON",
+      "texto": "Python aprendí con cursos de Udemy, hice una pequeña app",
+      "nivel": "Medio Bajo"
+    },
+    {
+      "id": 7,
+      "titulo": "Github",
+      "texto": "Github lo aprendí a usar en el curso de Argentina Programa",
+      "nivel": "Bueno"
+    },
+    {
+      "id": 8,
+      "titulo": "CSS",
+      "texto": "CSS lo conozco de Argentina Programa y además profundice mis habilidades de manera autodidacta",
+      "nivel": "Bueno"
+    },
+    {
+      "id":9,
+      "titulo": "INGLES",
+      "texto": "Soy Auxiliar Bilingüe Español/Ingles ya que fui a un instituto varios años",
+      "nivel": "Muy Bueno"
+    },
+    {
+      "id": 10,
+      "titulo": "C++",
+      "texto": "C++ lo aprendí en la universidad UTN frsf y además de Autodidacta",
+      "nivel": "Medio"
+    },
+    {
+      "id":11,
+      "titulo": "MySQL",
+      "texto": "MySQL workbench es un gestor de base de datos, lo empecé a usar en ArgentinaPrograma",
+      "nivel": "Bueno"
+    },
+    {
+      "id": 12,
+      "titulo": "BOOTSTRAP",
+      "texto": "Aprendí esta tecnología en Argentina Programa, Muy buena para agilizar la estilización de las paginas",
+      "nivel": "Muy Bueno"
+    },
+    {
+      "id": 13,
+      "titulo": "JavaScript",
+      "texto": "JS lo conocía de antes, cuando empecé a estudiar HTML CSS y JS de manera autodidacta, probando varios proyectos",
+      "nivel": "Bueno"
+    }
+  ],
+  "experiencia": [
+    {
+      "id": 1,
+      "nombreExperiencia": "Aun no tengo Experiencia Laboral en el mundo IT",
+      "descripcionExperiencia": "A pesar de no haber trabajado en este ámbito, aprendo rápido, estoy dispuesto a mejorar mis habilidades y aprender las tecnologías necesarias que requiera la empresa.",
+      "periodoExperiencia": "-"
+    }
+  ],
+  "educacion": [
+    {
+      "id": 1,
+      "titulo": "Full Stack Web Developer",
+      "institucion": "CESSI e INTI - Argentina Programa",
+      "descrpicion": "Java - Angular - MySQL - SpringBoot. Cursado en 2022-2023"
+    },
+    {
+      "id": 2,
+      "titulo": "Python 3: Curso completo de cero a experto",
+      "institucion": "Udemy",
+      "descrpicion": "2021"
+    },
+    {
+      "id": 3,
+      "titulo": "Auxiliar bilingüe de Ingles",
+      "institucion": "En Instituto I.I.P.I N° 3026, Elisa - Santa Fe",
+      "descrpicion": "2012 - 2016"
+    },
+    {
+      "id": 4,
+      "titulo": "Bachiller en administración de empresas",
+      "institucion": "Escuela secundaria de Elisa Juan B. Alberdi 8159",
+      "descrpicion": "2012 - 2016"
+    }
+  ]
+}

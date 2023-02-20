@@ -1,0 +1,13 @@
+<div class="card " style="margin-top: 10px;">
+    <div class="card-header" style="color: rgb(0, 0, 0);">
+        <h5 class="card-title">{{habilidad.titulo}}</h5>
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{habilidad.texto}}</li>
+            <li style="background-color: {{obtenerColor(habilidad)}};" class="list-group-item">
+                Nivel: {{habilidad.nivel}}
+            </li>
+        </ul>
+    </div>
+</div>
