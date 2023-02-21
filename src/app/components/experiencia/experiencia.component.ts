@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Experiencia } from '../../Portfolio';
-import { ExperienciaService } from '../../service/experiencia.service';
 import { Subscription }  from 'rxjs';
+import { ObtenerDatosService } from 'src/app/service/obtener-datos.service';
 
 @Component({
   selector: 'app-experiencia',
@@ -9,16 +8,16 @@ import { Subscription }  from 'rxjs';
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit {
-  experiencias: Experiencia[]=[];
+  experiencia:any;
   subscription?: Subscription;
   constructor(
-    private experienciaService:ExperienciaService
+    private obtenerDatos:ObtenerDatosService
   ) { }
 
   ngOnInit(): void {
-    this.experienciaService.getExperiencia().subscribe( experiencias =>
-      this.experiencias = experiencias
-    );
+    this.obtenerDatos.obtenerDatos().subscribe(data=>{
+      this.experiencia=data.experiencia;
+    })
   }
 
 }

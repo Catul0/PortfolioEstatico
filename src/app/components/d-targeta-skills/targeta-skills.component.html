@@ -1,4 +1,5 @@
-<div 
+<div
+    id="habilidades"
     class="card"
     style="padding-bottom: 35px;padding-top: 10px;margin: auto; background:none; border: none; color: rgb(255, 255, 255); width: 80%;"
 >
@@ -9,10 +10,6 @@
                 class="col-sm-4 col-md-4 col-lg-4"
                 *ngFor="let habilidad of habilidades"
                 [habilidad]= "habilidad"
-                (onDeleteSkill)="deleteSkill(habilidad)"
                 ></app-item-skill>
     </div>
-        
-    
-   
 </div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Educacion } from '../../Portfolio';
-import { EducacionService } from '../../service/educacion.service';
+import { ObtenerDatosService } from '../../service/obtener-datos.service';
 import { Subscription }  from 'rxjs';
 
 @Component({
@@ -9,16 +8,15 @@ import { Subscription }  from 'rxjs';
   styleUrls: ['./educacion.component.css']
 })
 export class EducacionComponent implements OnInit {
-  educacion: Educacion[]=[];
   subscription?: Subscription;
-  constructor(
-    private educacionService:EducacionService
-  ) { }
+  miEducation:any;
+  constructor(private datosPorfolio:ObtenerDatosService) { }
 
   ngOnInit(): void {
-    this.educacionService.getEducacion().subscribe( educacion =>
-      this.educacion = educacion
-    );
-  }
+    this.datosPorfolio.obtenerDatos().subscribe(data=>{
+      
+      this.miEducation=data.educacion;
+    })
 
+}
 }
